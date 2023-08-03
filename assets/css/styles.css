@@ -65,3 +65,40 @@ header #navigation {
 #navigation #focus {
     color: var(--verde);
 }
+
+#home {
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+#home #text-box {
+    position: relative;
+    max-width: 600px;
+}
+
+#home #text-box h1 {
+    color: var(--verde);
+    font-size: 4em;
+    line-height: 1.1em;
+}
+
+#home #text-box p {
+    color: var(--branco);
+    font-weight: 400;
+    font-size: 1em;
+    padding: 30px 0 30px 0;
+    line-height: 1.5em;
+}
+
+#home #text-box #btn {
+    text-decoration: none;
+    color: var(--preto);
+    background: var(--verde);
+    padding: 15px 50px;
+    font-weight: 500;
+}
