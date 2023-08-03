@@ -27,3 +27,12 @@ header {
     align-items: center;
     padding: 20px 100px;
 }
+
+header #logo {
+    position: relative;
+    color: var(--branco);
+    font-size: 2em;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
