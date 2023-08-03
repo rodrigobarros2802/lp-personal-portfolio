@@ -8,5 +8,9 @@
 }
 
 :root {
-
+    --preto: #222;
+    --cinza-escuro: #2e2f34;
+    --cinza-claro: #34353a;
+    --verde: #30fe6c;
+    --branco: #fff;
 }
