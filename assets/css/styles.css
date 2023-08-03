@@ -16,7 +16,7 @@
 }
 
 body {
-    background: var(--cinza-escuro);
+    background: var(--preto);
 }
 
 header {
@@ -35,4 +35,33 @@ header #logo {
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+header #navigation {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#navigation li {
+    list-style: none;
+}
+
+#navigation li a {
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+#navigation li:nth-child(2):hover a,
+#navigation li:nth-child(3):hover a,
+#navigation li:nth-child(4):hover a  {
+    color: var(--verde);
+}
+
+#navigation #focus {
+    color: var(--verde);
 }
