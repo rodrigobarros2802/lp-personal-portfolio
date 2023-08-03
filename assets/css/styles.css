@@ -84,7 +84,6 @@ header #navigation {
 #home #text-box h1 {
     color: var(--verde);
     font-size: 4em;
-    line-height: 1.1em;
 }
 
 #home #text-box p {
