@@ -70,6 +70,19 @@ header #navigation {
     padding: 100px;
 }
 
+#home::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 33vw;
+    height: 28vw;
+    background: var(--verde);
+    border-top-right-radius: 25vw;
+    border-top-left-radius: 25vw;
+
+}
+
 #home #text-box {
     position: relative;
     max-width: 600px;
@@ -101,5 +114,5 @@ header #navigation {
     position: absolute;
     bottom: 0;
     right: 100px;
-    min-height: 100vh;
+    min-height: 90vh;
 }
