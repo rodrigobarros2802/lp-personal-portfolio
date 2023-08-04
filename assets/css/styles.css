@@ -16,13 +16,14 @@
 }
 
 header {
-    position: absolute;
+    position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 100px;
     z-index: 1000;
+    backdrop-filter: blur(20px);
 }
 
 header #logo {
@@ -94,4 +95,11 @@ header #navigation {
     padding: 15px 50px;
     font-weight: 600;
     letter-spacing: 0.05em;
+}
+
+#home #rodrigo {
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    min-height: 100vh;
 }
