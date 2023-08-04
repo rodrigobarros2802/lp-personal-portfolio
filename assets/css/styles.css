@@ -15,10 +15,6 @@
     --branco: #fff;
 }
 
-body {
-    background: var(--preto);
-}
-
 header {
     position: absolute;
     width: 100%;
@@ -26,6 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 100px;
+    z-index: 1000;
 }
 
 header #logo {
@@ -56,18 +53,14 @@ header #navigation {
     font-size: 1.1em;
 }
 
-#navigation li:nth-child(2):hover a,
-#navigation li:nth-child(3):hover a,
-#navigation li:nth-child(4):hover a  {
-    color: var(--verde);
-}
-
-#navigation #focus {
+#navigation .focus,
+#navigation li:hover a {
     color: var(--verde);
 }
 
 #home {
     position: absolute;
+    background: var(--preto);
     width: 100%;
     min-height: 100vh;
     display: flex;
