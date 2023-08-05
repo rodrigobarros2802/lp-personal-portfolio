@@ -162,4 +162,9 @@ header #navigation {
 #services .content-bx {
     padding: 30px 50px;
     background: var(--cinza-escuro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }
