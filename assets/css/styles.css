@@ -229,3 +229,47 @@ header #navigation {
     gap: 20px;
 }
 
+#contact .content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact .content h2 {
+    font-size: 3em;
+    color: var(--branco);
+}
+
+#contact .content p {
+    font-size: 1.1em;
+    color: var(--cinza);
+    max-width: 700px;
+    line-height: 1.5em;
+}
+
+#contact .content-box {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 40px 0;
+    gap: 20px;
+}
+
+#contact .content-box a {
+    background: var(--cinza-escuro);
+    padding: 30px 10px;
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+#contact .content-box a ion-icon {
+    color: var(--verde);
+    margin-right: 10px;
+}
+
