@@ -167,11 +167,11 @@ header #navigation {
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    border: 2px solid #2e2f34;
+    border: 2px solid var(--cinza-escuro);
 }
 
 #services .content-bx:hover {
-    border: 2px solid #30fe6c;
+    border: 2px solid var(--verde);
 }
 
 #services .content-bx img {
@@ -183,4 +183,8 @@ header #navigation {
 
 #services .content-bx:hover img {
     opacity: 1;
+}
+
+#services .content-bx h3 {
+    color: var(--verde);
 }
