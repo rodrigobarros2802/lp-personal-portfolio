@@ -167,4 +167,20 @@ header #navigation {
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    border: 2px solid #2e2f34;
+}
+
+#services .content-bx:hover {
+    border: 2px solid #30fe6c;
+}
+
+#services .content-bx img {
+    max-width: 100%;
+    opacity: 0.5;
+    filter: invert(1);
+    transition: 0.5s;
+}
+
+#services .content-bx:hover img {
+    opacity: 1;
 }
