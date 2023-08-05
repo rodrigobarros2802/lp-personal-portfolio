@@ -282,5 +282,16 @@ header #navigation {
     color: var(--preto);
 }
 
+.copyrights {
+    position: relative;
+    margin-top: 150px;
+    color: var(--cinza);
+    font-size: 1.1em;
+}
+
+.copyrights a {
+    color: var(--verde);
+    text-decoration: none;
+}
 
 
