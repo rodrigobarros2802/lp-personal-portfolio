@@ -125,4 +125,6 @@ header #navigation {
     background: var(--cinza-claro);
     min-height: 100vh;
     padding: 120px 100px;
+    display: flex;
+    justify-content: center;
 }
