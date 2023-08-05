@@ -139,3 +139,27 @@ header #navigation {
     align-items: center;
     flex-direction: column;
 }
+
+#services .content h2 {
+    font-size: 3em;
+    color: var(--branco);
+}
+
+#services .content p {
+    font-size: 1.1em;
+    color: var(--cinza);
+    max-width: 700px;
+    line-height: 1.5em;
+}
+
+#services .content-box {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 40px 0;
+    grid-gap: 20px;
+}
+
+#services .content-bx {
+    padding: 30px 50px;
+    background: var(--cinza-escuro);
+}
