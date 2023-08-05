@@ -132,7 +132,8 @@ header #navigation {
     text-align: center;
 }
 
-#services .content {
+#services .content,
+#portfolio .content {
     position: relative;
     display: flex;
     justify-content: center;
@@ -140,12 +141,14 @@ header #navigation {
     flex-direction: column;
 }
 
-#services .content h2 {
+#services .content h2,
+#portfolio .content h2 {
     font-size: 3em;
     color: var(--branco);
 }
 
-#services .content p {
+#services .content p,
+#portfolio .content p {
     font-size: 1.1em;
     color: var(--cinza);
     max-width: 700px;
@@ -197,3 +200,4 @@ header #navigation {
     font-weight: 600;
     letter-spacing: 0.05em;
 }
+
