@@ -198,6 +198,10 @@ header #navigation {
     letter-spacing: 0.05em;
 }
 
+#portfolio {
+    background: var(--cinza-escuro);
+}
+
 #portfolio .content {
     position: relative;
     display: flex;
