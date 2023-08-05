@@ -132,8 +132,7 @@ header #navigation {
     text-align: center;
 }
 
-#services .content,
-#portfolio .content {
+#services .content {
     position: relative;
     display: flex;
     justify-content: center;
@@ -141,14 +140,12 @@ header #navigation {
     flex-direction: column;
 }
 
-#services .content h2,
-#portfolio .content h2 {
+#services .content h2 {
     font-size: 3em;
     color: var(--branco);
 }
 
-#services .content p,
-#portfolio .content p {
+#services .content p {
     font-size: 1.1em;
     color: var(--cinza);
     max-width: 700px;
@@ -201,3 +198,29 @@ header #navigation {
     letter-spacing: 0.05em;
 }
 
+#portfolio .content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#portfolio .content h2 {
+    font-size: 3em;
+    color: var(--branco);
+}
+
+#portfolio .content p {
+    font-size: 1.1em;
+    color: var(--cinza);
+    max-width: 700px;
+    line-height: 1.5em;
+}
+
+#portfolio .content-box {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 40px 0;
+    gap: 20px;
+}
