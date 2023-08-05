@@ -86,17 +86,17 @@ header #navigation {
 
 }
 
-#home #text-box {
+#home .text-box {
     position: relative;
     max-width: 600px;
 }
 
-#home #text-box h1 {
+#home .text-box h1 {
     color: var(--verde);
     font-size: 4em;
 }
 
-#home #text-box p {
+#home .text-box p {
     color: var(--branco);
     font-weight: 400;
     font-size: 1em;
@@ -104,7 +104,7 @@ header #navigation {
     line-height: 1.5em;
 }
 
-#home #text-box #btn {
+#home .text-box .btn {
     text-decoration: none;
     color: var(--preto);
     background: var(--verde);
@@ -113,7 +113,7 @@ header #navigation {
     letter-spacing: 0.05em;
 }
 
-#home #rodrigo {
+#home .rodrigo {
     position: absolute;
     bottom: 0;
     right: 100px;
@@ -187,4 +187,13 @@ header #navigation {
 
 #services .content-bx h3 {
     color: var(--verde);
+}
+
+.center .btn {
+    text-decoration: none;
+    color: var(--preto);
+    background: var(--verde);
+    padding: 15px 50px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
 }
