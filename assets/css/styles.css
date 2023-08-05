@@ -62,7 +62,7 @@ header #navigation {
 }
 
 #home {
-    position: absolute;
+    position: relative;
     background: var(--preto);
     width: 100%;
     min-height: 100vh;
