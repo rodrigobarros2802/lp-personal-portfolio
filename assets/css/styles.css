@@ -127,4 +127,5 @@ header #navigation {
     padding: 120px 100px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
