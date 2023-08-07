@@ -121,7 +121,17 @@ header #navigation {
 }
 
 .btn-fixed {
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+}
+
+.btn-fixed ion-icon {
+    font-size: 80px;
+    font-weight: 800;
+    color: white;
     
+
 }
 
 #services, #portfolio, #contact {
