@@ -120,6 +120,10 @@ header #navigation {
     min-height: 90vh;
 }
 
+.btn-fixed {
+    
+}
+
 #services, #portfolio, #contact {
     position: relative;
     background: var(--cinza-claro);
