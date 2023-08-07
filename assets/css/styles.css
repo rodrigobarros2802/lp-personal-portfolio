@@ -127,11 +127,12 @@ header #navigation {
 }
 
 .btn-fixed ion-icon {
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 800;
-    color: white;
-    
-
+    color: var(--branco);
+    border: 1px solid var(--branco);
+    border-radius: 10px;
+    background: var(--preto);
 }
 
 #services, #portfolio, #contact {
